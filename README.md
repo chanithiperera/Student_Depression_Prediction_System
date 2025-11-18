@@ -61,14 +61,14 @@ The final selected **Random Forest Classifier** model was saved and integrated i
 
 ### Step 1: Clone the Repository
 
-```bash```
+```bash```  
 git clone <your-repo-link>
 cd <repo-name>
 
 ### Step 2: Install Required Packages
 
 The Streamlit app requires specific packages, including Streamlit itself, for deployment.  
-```bash```
+```bash```  
 pip install scikit-learn joblib pandas streamlit
 
 ### Step 3: Running the Streamlit App (Deployment)
