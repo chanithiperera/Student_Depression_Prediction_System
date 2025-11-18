@@ -62,8 +62,8 @@ The final selected **Random Forest Classifier** model was saved and integrated i
 ### Step 1: Clone the Repository
 
 ```bash```  
-git clone <your-repo-link>
-cd <repo-name>
+git clone <<your-repo-link>>
+cd <<repo-name>>
 
 ### Step 2: Install Required Packages
 
