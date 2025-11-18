@@ -2,8 +2,10 @@
 
 ## Project Overview
 
-This is a university group project focuses on developing, evaluating, and comparing multiple supervised machine learning models to predict student depression levels based on a comprehensive dataset of academic, lifestyle, and social factors. The primary goal was to identify the most accurate, reliable, and ethically sound model for deployment as a decision-support tool.
+This is a university group project focuses on developing, evaluating, and comparing multiple supervised machine learning models to predict student depression levels based on a comprehensive dataset of academic, lifestyle, and social factors. **The entire project, including model training, evaluation, and the deployment application, was implemented using the Python programming language and its ecosystem of machine learning libraries (scikit-learn, TensorFlow, Streamlit, etc.).** The ultimate goal was to identify the most accurate, reliable, and ethically sound model for deployment as a decision-support tool.
 
+### Problem Statement
+Student mental health is a critical concern in higher education. Early identification of students at risk of depression is essential for timely intervention and support. This system aims to provide a data-driven approach to flag high-risk individuals.
 ### Problem Statement
 Student mental health is a critical concern in higher education. Early identification of students at risk of depression is essential for timely intervention and support. This system aims to provide a data-driven approach to flag high-risk individuals.
 
@@ -27,7 +29,7 @@ Six distinct machine learning models were developed, trained, and rigorously eva
 | Artificial Neural Network (ANN) | Member 3 | 85.68% | 0.84 | 0.85 | 0.85 | Rejected |
 | K-Nearest Neighbors (KNN) | Member 4 | 83.64% | 0.80 | 0.79 | 0.79 | Rejected |
 | Logistic Regression | Member 5 | 83.44% | 0.83 | 0.83 | 0.83 | Rejected |
-| Decision Tree | Member 6 | *Lower* | *Moderate* | *Moderate* | *Moderate* | Rejected |
+| Decision Tree | Member 6 | 81.50% | 0.80 | 0.80 | 0.80 | Rejected |
 
 ### Final Model Selection Rationale
 
@@ -65,21 +67,21 @@ cd <repo-name>
 
 ### Step 2: Install Required Packages
 
-The Streamlit app requires specific packages, including Streamlit itself, for deployment.
+The Streamlit app requires specific packages, including Streamlit itself, for deployment.  
 ```bash```
 pip install scikit-learn joblib pandas streamlit
 
 ### Step 3: Running the Streamlit App (Deployment)
 
-Navigate to the directory containing your app.py file and run the following command:
-```bash```
-python -m streamlit run app.py
+Navigate to the directory containing your app.py file and run the following command:  
+```bash```  
+python -m streamlit run app.py  
 
-Upon successful execution, you will see output similar to this in your terminal:
+Upon successful execution, you will see output similar to this in your terminal:  
 
- You can now view your Streamlit app in your browser.
- Local URL: http://localhost:8501
- Network URL: [http://192.168.1.59:8501](http://192.168.1.59:8501)
+ You can now view your Streamlit app in your browser.  
+ Local URL: http://localhost:8501  
+ Network URL: [http://192.168.1.59:8501](http://192.168.1.59:8501)  
 Open the Local URL in your web browser to interact with the Depression Predictor Application.
 
 **Happy Coding!**
